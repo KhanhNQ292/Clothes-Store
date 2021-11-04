@@ -1,0 +1,35 @@
+@media (max-width: 720px){
+    
+	.navbar{
+		height: auto;
+		flex-direction: column;
+        width: 100%;
+	}
+
+	.logo{
+		margin-bottom: 25px;
+	}
+
+	.navbar_items ul{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.navbar_items ul li{
+		margin-bottom:5px;
+	}
+
+	.banner_content{
+		margin-top: 35px;
+	}
+    .diff_services{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .diff_services_item{
+        margin: 0 15px;
+        width: 100%;
+    }
+
+}
