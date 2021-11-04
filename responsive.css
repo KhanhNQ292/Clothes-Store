@@ -25,11 +25,14 @@
     .diff_services{
         display: flex;
         flex-direction: column;
+		align-items: center;
 
     }
     .diff_services_item{
-        margin: 0 15px;
+        margin: 15px 15px;
         width: 100%;
     }
-
+	.diff_services_item-img {
+		object-fit: contain;
+	}
 }
