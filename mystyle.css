@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Allura|Josefin+Sans");
+
 @-webkit-keyframes mymove {
   50% {
     text-shadow: 10px 20px 30px blue;
@@ -123,14 +124,15 @@ p {
 /* About */
 .about,
 .services,
-.contactus,
+.contactUs,
 .ouritem {
   text-align: center;
   padding: 5% 10%;
 }
 .about {
-  background-image: url(./img/silk-fabric-organza-is-light-beige_133187-33.jpg);
+  background-image: url(./img/112774658-worn-marble-gold-and-pastel-advertising-background-fashion-artistic-template-for-new-collection-sign.jpg) ;
   opacity: 0.8;
+  
 }
 .about p {
   color: #000000;
@@ -138,7 +140,7 @@ p {
 }
 /* Services */
 .services {
-  background: url(./img/tropical-product-background_53876-89491.jpg);
+  background-color: rgb(208, 156, 156) ;
 }
 .services p {
   color: #000000;
@@ -152,8 +154,7 @@ p {
   width: 15.6666%;
   background-color: rgb(235, 235, 235);
   border: 0.5px solid;
-  padding: 10px;
-  box-shadow: 3px 5px rgb(179, 166, 166, 0.6);
+  box-shadow: 3px 5px rgba(248, 238, 238, 0.6);
 }
 .diff_services_item:hover {
   transform: translateY(-6px);
@@ -237,7 +238,9 @@ p {
 .ouritem_wrapper .team_members:hover img {
   transform: scale(1.1);
 }
-
+.contactUs{
+  background-color: rgb(248, 232, 211);
+}
 /* footer */
 .footer {
   width: 100%;
@@ -248,25 +251,4 @@ p {
 
 .footer a {
   color: #fff;
-}
-
-/* arrow */
-.arrow {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  width: 40px;
-  height: 40px;
-  line-height: 50px;
-  text-align: center;
-  cursor: pointer;
-  background: #fb2274;
-  border-radius: 50%;
-  display: none;
-}
-
-.arrow img {
-  width: 20px;
-  height: 20px;
-  z-index: 1;
 }
