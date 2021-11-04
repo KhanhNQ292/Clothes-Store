@@ -1,262 +1,272 @@
-
-@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+@import url("https://fonts.googleapis.com/css?family=Allura|Josefin+Sans");
 @-webkit-keyframes mymove {
-    50% {text-shadow: 10px 20px 30px blue;}
+  50% {
+    text-shadow: 10px 20px 30px blue;
+  }
 }
 
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	outline: none;
-	list-style: none;
-	text-decoration: none;
-	font-family: 'Josefin Sans', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-h1.title{
-	margin-bottom: 20px;
-	color: #444444;
-	font-family: 'Allura', cursive;
-	text-transform: uppercase;
-	font-size: 38px;
-	word-spacing: 25px;
-	letter-spacing: 5px;
-    animation: mymove 5s infinite ;
+h1.title {
+  margin-bottom: 20px;
+  color: #444444;
+  font-family: "Allura", cursive;
+  text-transform: uppercase;
+  font-size: 38px;
+  word-spacing: 25px;
+  letter-spacing: 5px;
+  animation: mymove 5s infinite;
 }
 
-p{
-	margin-bottom: 15px;
-	font-size: 14px;
-	line-height: 20px;
-	color: #a9a9a9;
+p {
+  margin: 15px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #a9a9a9;
 }
 
 .btn a {
-    width: 180px;
-    height: 35px;
-    line-height: 35px;
-    border: 2px solid #fb2274;
-    color: #fb2274;
-    display: block;
-    margin: 25px auto 0;
-    text-align: center;
-}
-.btn a:hover{
-    color: rgba(30, 27, 27, 0.7);
-    cursor: pointer;
-    background-color: #a9a9a9;
+  width: 180px;
+  height: 35px;
+  line-height: 35px;
+  border: 2px solid #fb2274;
+  color: #fb2274;
+  display: block;
+  margin: 25px auto 0;
+  text-align: center;
 }
 
-.main_container{
-	position: relative;
+.btn a:hover {
+  color: rgba(30, 27, 27, 0.7);
+  cursor: pointer;
+  background-color: #a9a9a9;
+}
+
+.main_container {
+  position: relative;
 }
 
 /* Navigation Bar */
-.navbar{
-	width: 100%;
-	height: 65px;
-	position: absolute;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-    list-style-type: none;
+.navbar {
+  width: 100%;
+  height: 65px;
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
 }
 
-.logo a{
-	font-family: 'Allura', cursive;
-	font-size: 32px;
-	color: #fb2274;
-    animation: mymove 5s infinite ;
+.logo a {
+  font-family: "Allura", cursive;
+  font-size: 32px;
+  color: #fb2274;
+  animation: mymove 5s infinite;
 }
-.logo a:hover{
-    color: rgba(255, 255, 255, 0.7);
-    cursor: pointer;
-}
-
-.navbar_items ul{
-	display: flex;
+.logo a:hover {
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
 }
 
-.navbar_items ul li{
-	margin: 0 10px;
+.navbar_items ul {
+  display: flex;
 }
 
-.navbar_items ul li a{
-	text-transform: uppercase;
-	color: #fff;
+.navbar_items ul li {
+  margin: 0 10px;
 }
-.navbar_item_text:hover{
-    color: rgba(30, 27, 27, 0.7);
-    cursor: pointer;
+
+.navbar_items ul li a {
+  text-transform: uppercase;
+  color: #fff;
+}
+.navbar_item_text:hover {
+  color: rgba(30, 27, 27, 0.7);
+  cursor: pointer;
 }
 
 /* banner_image */
-.banner_image{
-	background: url('img/bg.jpg') no-repeat top center;
-	background-size: cover;
-	width: 100%;
-	height: 600px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.banner_image {
+  background: url("img/bg.jpg") no-repeat top center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.banner_content{
-	text-align: center;
-	color: #fff;
+.banner_content {
+  text-align: center;
+  color: #fff;
 }
 
-.banner_content h1{
-	text-transform: uppercase;
-	line-height: 38px;
-	margin-bottom: 15px;
-    animation: mymove 5s infinite ;
+.banner_content h1 {
+  text-transform: uppercase;
+  line-height: 38px;
+  margin-bottom: 15px;
+  animation: mymove 5s infinite;
 }
 
-.banner_content h1 span{
-	color: #fb2274;
+.banner_content h1 span {
+  color: #fb2274;
 }
-
 
 /* About */
 .about,
 .services,
 .contactus,
-.ouritem{
-	text-align: center;
-	padding: 5% 10%;
+.ouritem {
+  text-align: center;
+  padding: 5% 10%;
 }
-
+.about {
+  background-image: url(./img/silk-fabric-organza-is-light-beige_133187-33.jpg);
+  opacity: 0.8;
+}
+.about p {
+  color: #000000;
+  font-weight: 600;
+}
 /* Services */
-.services{
-	background: #f5f5f5;
+.services {
+  background: url(./img/tropical-product-background_53876-89491.jpg);
 }
-
+.services p {
+  color: #000000;
+}
 .diff_services {
-    margin-top: 35px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 35px;
+  display: flex;
+  justify-content: space-between;
 }
 .diff_services_item {
-    width: 15.6666%;
+  width: 15.6666%;
+  background-color: rgb(235, 235, 235);
+  border: 0.5px solid;
+  padding: 10px;
+  box-shadow: 3px 5px rgb(179, 166, 166, 0.6);
 }
 .diff_services_item:hover {
-	transform: translateY(-6px);
-	box-shadow: 0 1px 25px 0 rgba(0, 0, 0, 0.1);
-	cursor: pointer;
+  transform: translateY(-6px);
+  box-shadow: 0 1px 25px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  opacity: 0.7;
 }
 .diff_services_item img {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
+  width: 100%;
 }
 .diff_services_item-img {
-    width: 120px;
-    height: 150px;
-    object-fit: inherit;
-    transition: right linear 0.2s;
-    right: 0;
-    
+  width: 120px;
+  height: 150px;
+  object-fit: inherit;
+  transition: right linear 0.2s;
+  right: 0;
 }
-.diff_services_item-img:hover{
-    right: -4px;
-    cursor: pointer;
+.diff_services_item-img:hover {
+  right: -4px;
+  cursor: pointer;
 }
 
 .diff_services .diff_services_item h3 {
-    color: #fb2274;
-    margin-bottom: 15px;
+  color: #fb2274;
+  margin-bottom: 15px;
 }
 
 /* Contact us */
-.form_wrapper .form_input{
-	margin-bottom: 15px;
+.form_wrapper .form_input {
+  margin-bottom: 15px;
 }
 
-.form_wrapper .form_input input[type="text"]{
-	width: 250px;
-	padding: 12px 20px; 
-	border: 1px solid #ccc;
+.form_wrapper .form_input input[type="text"] {
+  width: 250px;
+  padding: 12px 20px;
+  border: 1px solid #ccc;
 }
 
-.form_wrapper .form_input textarea{
-	width: 250px;
-	padding: 12px 20px; 
-	height: 80px;
-	resize: none;
-	border: 1px solid  #ccc;
+.form_wrapper .form_input textarea {
+  width: 250px;
+  padding: 12px 20px;
+  height: 80px;
+  resize: none;
+  border: 1px solid #ccc;
 }
 /* our team */
-.ouritem{
-	background: #f5f5f5;
+.ouritem {
+  background: #f5f5f5;
 }
 
-.ouritem_wrapper{
-	display: flex;
-	flex-direction: column;
+.ouritem_wrapper {
+  display: flex;
+  flex-direction: column;
 }
 
-.ouritem_wrapper .team{
-	display: flex;
-	justify-content: space-between;
+.ouritem_wrapper .team {
+  display: flex;
+  justify-content: space-between;
 }
 
-.ouritem_wrapper .team-1.team{
-	margin-bottom: 25px;
+.ouritem_wrapper .team-1.team {
+  margin-bottom: 25px;
 }
 
-.ouritem_wrapper .team_members{
-	width: 30%;
-	height: auto;
-	cursor: pointer;
-	overflow: hidden;
-	position: relative;
+.ouritem_wrapper .team_members {
+  width: 30%;
+  height: auto;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
 }
 
-.ouritem_wrapper .team_members img{
-	display: block;
-	width: 100%;
-	height: auto;
-	transition: all 0.5s ease;
+.ouritem_wrapper .team_members img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: all 0.5s ease;
 }
 
-.ouritem_wrapper .team_members:hover img{
-	transform: scale(1.1);
+.ouritem_wrapper .team_members:hover img {
+  transform: scale(1.1);
 }
 
 /* footer */
-.footer{
-	width: 100%;
-	text-align: center;
-	background: #444444;
-	padding: 20px 0;
+.footer {
+  width: 100%;
+  text-align: center;
+  background: #444444;
+  padding: 20px 0;
 }
 
-.footer a{
-	color: #fff;
+.footer a {
+  color: #fff;
 }
-
-
-
-
-
 
 /* arrow */
-.arrow{
-	position: fixed;
-	bottom: 25px;
-	right: 25px;
-	width: 40px;
-	height: 40px;
-	line-height: 50px;
-	text-align: center;
-	cursor: pointer;
-	background: #fb2274;
-	border-radius: 50%;
-	display: none;
+.arrow {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  line-height: 50px;
+  text-align: center;
+  cursor: pointer;
+  background: #fb2274;
+  border-radius: 50%;
+  display: none;
 }
 
-.arrow img{
-	width: 20px;
-	height: 20px;
-	z-index: 1;
+.arrow img {
+  width: 20px;
+  height: 20px;
+  z-index: 1;
 }
