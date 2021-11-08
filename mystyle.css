@@ -39,7 +39,11 @@ p {
   height: 35px;
   line-height: 35px;
   border: 2px solid #080808;
+<<<<<<< HEAD
   color:#080808;
+=======
+  color: #080808;
+>>>>>>> ac865991572747c59bfd111b2923a9aca7e7f1ff
   display: block;
   margin: 25px auto 0;
   text-align: center;
@@ -67,7 +71,11 @@ p {
 }
 
 .logo a {
+<<<<<<< HEAD
   font-family: 'Courier New', Courier, monospace, cursive;
+=======
+  font-family: "Courier New", Courier, monospace, cursive;
+>>>>>>> ac865991572747c59bfd111b2923a9aca7e7f1ff
   font-size: 32px;
   color: #1a1919;
   animation: mymove 5s infinite;
@@ -82,7 +90,7 @@ p {
 }
 
 .navbar_items ul li {
-  margin: 0 10px;
+  margin: 0 13px;
 }
 
 .navbar_items ul li a {
@@ -96,7 +104,13 @@ p {
 
 /* banner_image */
 .banner_image {
+<<<<<<< HEAD
   display: flex;
+=======
+  background: url("img/Brand\ Guidelines\ Presentation\ \(2\).png") no-repeat
+    top center;
+  background-size: cover;
+>>>>>>> ac865991572747c59bfd111b2923a9aca7e7f1ff
   width: 100%;
   height: 600px;
 }
@@ -125,18 +139,24 @@ p {
   text-align: center;
   padding: 5% 10%;
 }
+<<<<<<< HEAD
 .about {
   background-image: url(img/Brand\ Guidelines\ Presentation\ \(7\).png);
   opacity: 0.8;
 }
+=======
+>>>>>>> ac865991572747c59bfd111b2923a9aca7e7f1ff
 .about p {
   color: #000000;
   font-weight: 500;
 }
 /* Services */
+<<<<<<< HEAD
 .services {
   background-image: url(img/Brand\ Guidelines\ Presentation\ \(7\).png);
 }
+=======
+>>>>>>> ac865991572747c59bfd111b2923a9aca7e7f1ff
 .services p {
   color: #000000;
 }
@@ -183,6 +203,7 @@ p {
   justify-content: center;
 }
 .footer {
+<<<<<<< HEAD
   width: 100%;
   text-align: center;
   background-image: url(img/Brand\ Guidelines\ Presentation\ \(7\).png);
@@ -206,6 +227,27 @@ p {
   font-size: 00.938rem;
   margin-bottom: 10px;
 }
+=======
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  gap: 2rem;
+  width: 100%;
+  text-align: center;
+}
+.footer-box h2 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.footer-box span {
+  color: var(--main-color);
+}
+.footer-box p {
+  font-size: 00.938rem;
+  margin-bottom: 10px;
+}
+>>>>>>> ac865991572747c59bfd111b2923a9aca7e7f1ff
 .social {
   display: flex;
   align-items: center;
