@@ -1,8 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Allura|Josefin+Sans");
-
-@-webkit-keyframes mymove {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+@keyframes mymove {
   50% {
-    text-shadow: 10px 20px 30px blue;
+    text-shadow: 10px 20px 30px rgb(61, 64, 114);
   }
 }
 
@@ -14,6 +13,7 @@
   list-style: none;
   text-decoration: none;
   font-family: "Josefin Sans", sans-serif;
+  max-width: -webkit-fill-available;
 }
 
 h1.title {
@@ -38,8 +38,8 @@ p {
   width: 180px;
   height: 35px;
   line-height: 35px;
-  border: 2px solid #fb2274;
-  color: #fb2274;
+  border: 2px solid #080808;
+  color:#080808;
   display: block;
   margin: 25px auto 0;
   text-align: center;
@@ -67,13 +67,13 @@ p {
 }
 
 .logo a {
-  font-family: "Allura", cursive;
+  font-family: 'Courier New', Courier, monospace, cursive;
   font-size: 32px;
-  color: #fb2274;
+  color: #1a1919;
   animation: mymove 5s infinite;
 }
 .logo a:hover {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(168, 155, 155, 0.7);
   cursor: pointer;
 }
 
@@ -87,7 +87,7 @@ p {
 
 .navbar_items ul li a {
   text-transform: uppercase;
-  color: #fff;
+  color: rgb(8, 8, 8);
 }
 .navbar_item_text:hover {
   color: rgba(30, 27, 27, 0.7);
@@ -96,18 +96,14 @@ p {
 
 /* banner_image */
 .banner_image {
-  background: url("img/bg.jpg") no-repeat top center;
-  background-size: cover;
+  display: flex;
   width: 100%;
   height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .banner_content {
   text-align: center;
-  color: #fff;
+  color: rgb(8, 8, 8);
 }
 
 .banner_content h1 {
@@ -130,17 +126,16 @@ p {
   padding: 5% 10%;
 }
 .about {
-  background-image: url(./img/112774658-worn-marble-gold-and-pastel-advertising-background-fashion-artistic-template-for-new-collection-sign.jpg) ;
+  background-image: url(img/Brand\ Guidelines\ Presentation\ \(7\).png);
   opacity: 0.8;
-  
 }
 .about p {
   color: #000000;
-  font-weight: 600;
+  font-weight: 500;
 }
 /* Services */
 .services {
-  background-color: rgb(208, 156, 156) ;
+  background-image: url(img/Brand\ Guidelines\ Presentation\ \(7\).png);
 }
 .services p {
   color: #000000;
@@ -165,6 +160,7 @@ p {
 .diff_services_item img {
   margin-bottom: 25px;
   width: 100%;
+  object-fit: cover;
 }
 .diff_services_item-img {
   width: 120px;
@@ -179,76 +175,70 @@ p {
 }
 
 .diff_services .diff_services_item h3 {
-  color: #fb2274;
+  color: #896f5a;
   margin-bottom: 15px;
 }
-
-/* Contact us */
-.form_wrapper .form_input {
-  margin-bottom: 15px;
-}
-
-.form_wrapper .form_input input[type="text"] {
-  width: 250px;
-  padding: 12px 20px;
-  border: 1px solid #ccc;
-}
-
-.form_wrapper .form_input textarea {
-  width: 250px;
-  padding: 12px 20px;
-  height: 80px;
-  resize: none;
-  border: 1px solid #ccc;
-}
-/* our team */
-.ouritem {
-  background: #f5f5f5;
-}
-
-.ouritem_wrapper {
+.collec {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
-
-.ouritem_wrapper .team {
-  display: flex;
-  justify-content: space-between;
-}
-
-.ouritem_wrapper .team-1.team {
-  margin-bottom: 25px;
-}
-
-.ouritem_wrapper .team_members {
-  width: 30%;
-  height: auto;
-  cursor: pointer;
-  overflow: hidden;
-  position: relative;
-}
-
-.ouritem_wrapper .team_members img {
-  display: block;
-  width: 100%;
-  height: auto;
-  transition: all 0.5s ease;
-}
-
-.ouritem_wrapper .team_members:hover img {
-  transform: scale(1.1);
-}
-.contactUs{
-  background-color: rgb(248, 232, 211);
-}
-/* footer */
 .footer {
   width: 100%;
   text-align: center;
-  background: #444444;
-  padding: 20px 0;
+  background-image: url(img/Brand\ Guidelines\ Presentation\ \(7\).png);
+  font-family:'Courier New', Courier, monospace, cursive;
 }
-
-.footer a {
-  color: #fff;
+.footer-elements {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  gap: 2rem;
+}
+.footer-box h2 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.footer-box span {
+  color: var(--main-color);
+}
+.footer-box p {
+  font-size: 00.938rem;
+  margin-bottom: 10px;
+}
+.social {
+  display: flex;
+  align-items: center;
+}
+.social a {
+  font-size: 24px;
+  margin-right: 10px;
+  color: var(--text-color);
+}
+.social a:hover {
+  color: var(--main-color);
+}
+.footer-box h3 {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.footer-box li a {
+  color: var(--text-color);
+}
+.footer-box li a:hover {
+  color: var(--main-color);
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+.contact-info span {
+  color: var(--text-color);
+}
+.copyright {
+  padding: 20px;
+  text-align: center;
+}
+.footer-heading{
+  font-family:'Courier New', Courier, monospace, cursive;
 }
